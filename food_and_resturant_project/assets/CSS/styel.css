@@ -25,8 +25,8 @@ a {
 }
 
 .website--btn {
-    color: orange;
-    color: rgb(32, 30, 30);
+    background-color: orange;
+    color: #fff;
     border: none;
     padding: 10px 20px;
     font-size: 20px;
@@ -201,3 +201,22 @@ service section start
 /* ------------------
 service section end
 --------------------- */
+/*---------------------
+feedback section start
+------------------------ */
+.feedback{
+    margin: 100px 0;
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 0;
+    border-radius: 5px;
+}
+.feedback h1{
+   font-size: 32px;
+}
+.feedback span{
+    display: block;
+}
+/*---------------------
+feedback section end
+------------------------ */

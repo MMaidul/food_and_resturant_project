@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
     background-color: rgb(54, 49, 54);
 }
-
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -43,10 +44,10 @@ a {
     font-size: 22px;
 }
 .default--color{
-    color: rgba(255, 230, 0, 0.89);
+    color: orange;
 }
 .website--btn{
-    background-color: rgba(255, 230, 0, 0.89);
+   color: orange;
     color: rgb(32, 30, 30);
     border: none;
     padding: 10px 20px;
@@ -58,7 +59,7 @@ a {
 }
 
 .website--title h4{
-    color: rgba(255, 230, 0, 0.89);
+   color: orange;
     font-size: 24px;
 }
 .website--title h1{
@@ -123,3 +124,43 @@ a {
   /* ---------------------
     about us section end
     ---------------------- */
+
+    /* -------------------
+       menu section start
+       ------------------ */
+       .menu{
+           margin: 100px 0;
+       }
+       .menu__title{
+           text-align: center;
+           padding-bottom: 20px;
+       }
+       .menu__card{
+           display: flex;
+           justify-content: center;
+        }
+        .menu__single{
+           width: 32%;
+           margin-left: 1%;
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 20px;
+       }
+       .menu__single--container{
+          padding-left: 60px;
+          margin-top: 10px;
+       }
+       .menu__single--container h2{
+           font-size: 24px;
+       }
+       .menu__single--container h4{
+           font-size: 20px;
+           padding: 7px 0;
+       }
+       .menu__single--container p{
+           font-size: 19px;
+           color: orange;
+       }
+    /* -------------------
+       menu section end
+       ------------------ */

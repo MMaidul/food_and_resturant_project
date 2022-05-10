@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(54, 49, 54);
 }
 
 img {
@@ -26,18 +27,64 @@ a {
     display: flex;
     justify-content: space-between;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
 }
 
 .header__logo a,
 .header__menu a {
-    font-size: 22px;
+    font-size: 32px;
+    font-style: italic;
 
 }
 
 .header__menu a {
     margin-left: 10px;
+    color: #fff;
+    font-size: 22px;
 }
-
+.default--color{
+    color: rgba(255, 230, 0, 0.89);
+}
 /* -------------------
    header css end    
 ----------------------*/
+
+/* --------------------
+  banner-section start
+  ---------------------- */
+  .banner{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 100px;
+  }
+  .banner__container{
+      width: 50%;
+  }
+  .banner__container h1{
+      font-size: 50px;
+      font-style: italic;
+  }
+  .banner__container p{
+      color: #fff;
+      font-size: 28px;
+      padding-bottom: 20px;
+  }
+  .banner__container button{
+      background-color:rgba(255, 230, 0, 0.89);
+      color: rgb(32, 30, 30);
+      border: none;
+      padding: 10px 20px;
+      font-size: 20px;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  .banner__img{
+      width: 40%;
+  }
+  .banner__img img{
+      width: 100%;
+  }
+/* --------------------
+  banner-section end
+  ---------------------- */
